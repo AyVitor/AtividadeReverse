@@ -8,7 +8,7 @@ public class Reverse {
         System.out.print("Enter a word or phrase: ");
         String word = scanner.nextLine();
 
-        String reversedWord = reverseUsingLoop(word); // Method call for flexibility
+        String reversedWord = reverseUsingLoop(word); 
 
         System.out.println("Reversed: " + reversedWord);
     }
